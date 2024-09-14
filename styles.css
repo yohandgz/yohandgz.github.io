@@ -147,6 +147,7 @@ img {
 }
 
 video {
+    pointer-events: none;
     width: 100vw;
     height: 75vh;
     object-fit: cover;
