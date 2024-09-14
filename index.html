@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="cover">
+        <nav id="nav">
+            <div id="nav-left">Yohan De Guzman</div>
+            <div id="nav-right">
+                <div>Full-Stack Software Engineer</div>
+                <div id="mail" class="icon"></div>
+                <div id="linkedin" class="icon"></div>
+                <div id="github" class="icon"></div>
+                <div id="resume" class="icon"></div>
+            </div>
+        </nav>
+        <div id="content">
+            <video loop autoplay muted>
+                <source src="./images/backgroundvid.mp4" type="video/mp4">
+                Your browser doesn't support the video tag. WOMP WOMP :/
+            </video>
+            <div id="overlay-text"></div>
+        </div>
+    </div>
+    <div id="about">
+        <div id="line-container"> 
+            <svg viewBox="0 0 1082 510" fill="none" preserveAspectRatio="xMidYMax meet">
+                <path d="M702.5 505.5H1082M0.5 56.5H63.75H127M0.5 5H380M955.5 447H1018.75H1082" stroke="#5886C6" stroke-width="9"/>
+            </svg>                                                   
+        </div>
+        <div id="about-title">ABOUT ME</div>
+        <div id="about-content">
+            Passionate about AI-driven solutions, software development, and leveraging tech for community impact.           
+        </div>
+    </div>
+    <div id="skills-about">
+        <button id="view-skills" class="text-button active">View Skills</button>
+        <span class="separator">|</span>
+        <button id="more-about-me" class="text-button">More About Me</button>
+    </div>
+    <div id="tech-container">
+        <div id="tech-stack-title">My Tech Stack</div>
+        <div id="tech-stack-list">
+            <div class="tech">
+                <div id="python" class="tech-icon"></div>
+                <span class="tech-title">Python</span>
+            </div>
+            <div class="tech">
+                <div id="java" class="tech-icon"></div>
+                <span class="tech-title">Java</span>
+            </div>
+            <div class="tech">
+                <div id="javascript" class="tech-icon"></div>
+                <span class="tech-title">JavaScript</span>
+            </div>
+            <div class="tech">
+                <div id="reactjs" class="tech-icon"></div>
+                <span class="tech-title">ReactJS</span>
+            </div>
+            <div class="tech">
+                <div id="nodejs" class="tech-icon"></div>
+                <span class="tech-title">NodeJS</span>
+            </div>
+            <div class="tech">
+                <div id="sql" class="tech-icon"></div>
+                <span class="tech-title">SQL</span>
+            </div>
+        </div>
+    </div>
+    <div id="more-about-me-container" style="display: none;">
+        <div id="mam-info">
+            <div id="mam-title">Hi, I'm Yohan</div>
+            <div id="mam-paragraph">I'm a second-year at The University of Chicago studying computer science with a specialization in machine learning. I have experience in engineering full-stack applications and building prototypes for startups. I am driven by a passion for continuous learning and improvement, and I embrace every opportunity to grow my technical background. Outside of work, I play basketball, follow along cooking videos, and watch Cobra Kai. NO MERCY!</div>
+        </div>
+        <div id="image-container">
+            <img src="./images/photo1.jpg" alt="Picture of me" id="mam-image">
+            <button id="mam-arrow" class="text-button">→</button>
+        </div>
+    </div>
+    <div id="projects-container">
+        <div id="pline-container"> 
+            <svg viewBox="0 0 832 128" fill="none" preserveAspectRatio="xMidYMax meet">
+                <path id="projectsvg" d="M684 2V126.001M823.5 37.5011C823.5 25.5012 816.1 8.65118 788.5 8.25118C760.9 7.85118 752 24 754 37.501C755.778 49.5 767.5 57.2006 788.5 63.5C823.5 73.9991 823.5 85.5 823.5 95.5C823.5 105.5 812 120 788.5 120C764.479 120 749.5 106 749.5 90M435.5 10H513M435.5 61.5H505.5M435.5 118H514M8 2V126M110.5 10H154C164.167 10 187 13.6 187 38C187 62.4 164.167 70.1667 154 70.5H110.5M191.5 126C191.5 123 189.333 120.667 188 118.5L177 99L160.692 69.5M618 41.5C618 14.5 592.5 8.5 582.5 8.5C571 7.83331 548 12.0006 541.5 35.5C534.964 59.1286 538.5 81.5 541.5 91.5C544.5 101.5 555 120 580.5 120C604.5 120 618 101.5 618 86.5M399 2V84C399 102 395 119.1 369 119.5C343 119.9 337 106 337 91.5M0 70.5H50.5C60.6667 70.1667 81 63.4 81 39C81 14.6 60.6667 10 50.5 10H0M118.5 2V126M443.5 2V126M636 10H731.742M265 8.5C274.5 8.5 296.5 12.3994 302.5 35.9994C308.5 59.5994 305 83.1661 302.5 91.9994C300.667 101.666 288.6 119.6 265 120C241.4 120.4 229.667 101.999 226 91.9994C223 83.3328 220 59.9995 226 35.9994C232 11.9994 256.5 8.5 265 8.5Z" stroke="#5886C6" stroke-width="16"/>
+            </svg>                                                   
+        </div>
+        <div id="stockx" class="project">
+            <div class="project-left">
+                <div class="project-title">Centralized Sneaker Platform</div>
+                <div class="project-subtitle">
+                    <div class="subtitle-text">Full-stack application (Work in progress)</div>
+                    <div id="github" class="subtitle-icon icon csp"></div>
+                </div>
+                <div class="project-paragraph">Building a full-stack application that integrates sneaker market data, online performance reviews, and outfit inspiration images. Currently Using Node.js, Playwright, and MySQL to webscrape data from over 5000 pairs of shoes from StockX, overcoming their bot detection mechanisms.</div>
+            </div>
+            <div class="project-right">
+                <div id="shoe-container">
+                    <img id="shoeImage" src="https://images.stockx.com/360/Nike-SB-Dunk-Low-Ben-Jerrys-Chunky-Dunky-FF-Packaging/Images/Nike-SB-Dunk-Low-Ben-Jerrys-Chunky-Dunky-FF-Packaging/Lv2/img01.jpg?auto=format%2Ccompress&w=576&dpr=1&q=57" alt="Shoe Image">
+                </div>
+                <input type="range" id="slider" min="1" max="36" value="1">
+            </div>
+        </div>
+        <div id="digit" class="project">
+            <div class="project-left">
+                <div class="project-title">Handwritten Digit Recognizer</div>
+                <div class="project-subtitle">
+                    <div class="subtitle-text">Machine learning project</div>
+                    <div id="github" class="subtitle-icon icon hdr"></div>    
+                </div>
+                <div class="project-paragraph">Trained a Convolutional Neural Network by using pooling layers for feature extraction and classification. Achieved accuracy of 95.5% on the MNIST handwritten digit dataset using NumPy, TensorFlow, and Keras. Optimized the model’s performance through hyperparameter tuning, data augmentation, and early stopping.</div>
+            </div>
+            <div class="project-right">
+                <div id="hdr-vid-container">
+                    <video id="hdr-vid" loop autoplay muted>
+                        <source src="./images/hdrvid.mp4" type="video/mp4">
+                        Your browser doesn't support the video tag. WOMP WOMP :/
+                    </video>
+                </div>
+                <button id="play-pause-btn" class="pause"></button>
+            </div>
+        </div>
+    </div>
+    <div id="end-container">
+        <div id="end">
+            <div id="hidden-message">if you're reading this have a good day!!!</div>
+            <div id="icon-list">
+                <div id="mail" class="icon"></div>
+                <div id="linkedin" class="icon"></div>
+                <div id="github" class="icon"></div>
+                <div id="resume" class="icon"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
