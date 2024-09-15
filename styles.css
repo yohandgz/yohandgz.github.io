@@ -594,6 +594,13 @@ svg {
     }
 }
 
+@media (max-width: 335px) {
+    #tech-container, 
+    #more-about-me-container {
+        height: 46vh;
+    }
+}
+
 #python {
     background-image: url(./images/techpython.png);
 }
@@ -753,7 +760,7 @@ svg {
 
 @media (max-width: 1300px) {
     .project {
-        height: 105vh;
+        height: 110vh;
         flex-direction: column;
     }
 
@@ -765,43 +772,49 @@ svg {
 
 @media (max-width: 1200px) {
     .project {
-        height: 100vh;
+        height: 105vh;
     }
 }
 
 @media (max-width: 1100px) {
     .project {
-        height: 95vh;
+        height: 100vh;
     }
 }
 
 @media (max-width: 1000px) {
     .project {
-        height: 90vh;
+        height: 95vh;
     }
 }
 
 @media (max-width: 900px) {
     .project {
-        height: 85vh;
+        height: 90vh;
     }
 }
 
 @media (max-width: 800px) {
     .project {
-        height: 80vh;
+        height: 87.5vh;
+    }
+}
+
+@media (max-width: 725px) {
+    .project {
+        height: 82.5vh;
     }
 }
 
 @media (max-width: 550px) {
     .project {
-        height: 75vh;
+        height: 80vh;
     }
 }
 
 @media (max-width: 450px) {
     .project {
-        height: 70vh;
+        height: 75vh;
     }
 }
 
