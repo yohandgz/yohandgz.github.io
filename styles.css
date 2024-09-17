@@ -60,19 +60,23 @@ img {
     margin-left: 25px; 
 }
 
-#github {
+#github,
+#endGithub {
     background-image: url(./images/github.svg);
 }
 
-#linkedin {
+#linkedin,
+#endLinkedin {
     background-image: url(./images/linkedin.svg);
 }
 
-#resume {
+#resume,
+#endResume {
     background-image: url(./images/download.svg);
 }
 
-#mail {
+#mail,
+#endMail {
     background-image: url(./images/mail.svg);
 }
 

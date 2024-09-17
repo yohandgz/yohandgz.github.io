@@ -34,6 +34,10 @@ function setupIconEventListeners() {
     const linkedinIcon = document.getElementById('linkedin');
     const resumeIcon = document.getElementById('resume');
     const mailIcon = document.getElementById('mail');
+    const githubIcon2 = document.getElementById('endGithub');
+    const linkedinIcon2 = document.getElementById('endLinkedin');
+    const resumeIcon2 = document.getElementById('endResume');
+    const mailIcon2 = document.getElementById('endMail');
 
     githubIcon.addEventListener('mouseover', () => navAddBlurAndMatte('My GitHub'));
     linkedinIcon.addEventListener('mouseover', () => navAddBlurAndMatte('My LinkedIn'));
@@ -49,6 +53,11 @@ function setupIconEventListeners() {
     linkedinIcon.addEventListener('click', () => handleIconClick(linkedinURL));
     resumeIcon.addEventListener('click', () => handleIconClick(resumeURL));
     mailIcon.addEventListener('click', () => handleIconClick(mailURL));
+
+    githubIcon2.addEventListener('click', () => handleIconClick(githubURL));
+    linkedinIcon2.addEventListener('click', () => handleIconClick(linkedinURL));
+    resumeIcon2.addEventListener('click', () => handleIconClick(resumeURL));
+    mailIcon2.addEventListener('click', () => handleIconClick(mailURL));
 }
 
 // video scroll animation
