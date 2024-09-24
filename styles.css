@@ -775,5 +775,5 @@ svg {
 }
 
 #hidden-message {
-    font-size: calc(5px + 0.5vw);
+    font-size: calc(15px + 1vw);
 }
