@@ -27,7 +27,7 @@ function handleIconClick(url) {
 function setupIconEventListeners() {
     const githubURL = 'https://github.com/yohandgz';
     const linkedinURL = 'https://www.linkedin.com/in/ralphyohandgz';
-    const resumeURL = './misc/rdgz.pdf';
+    const resumeURL = './misc/resume6.pdf';
     const mailURL = 'mailto:yohan@uchicago.edu';
 
     const githubIcon = document.getElementById('github');
